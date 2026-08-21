@@ -8,6 +8,17 @@ check your streak, not a general-purpose dashboard.
   <img alt="GitHub Contribution Widget" src="https://img.shields.io/badge/stack-React%20%2B%20Express%20%2B%20TypeScript-black">
 </p>
 
+## ✨ Key Features
+
+- **Native Look & Feel:** Renders a real GitHub-style contribution calendar built directly from response data (no external image embeds or iframe hacks).
+- **Streak & Activity Metrics:** Real-time tracking for current streak, longest streak, today's total, weekly totals, and monthly activity.
+- **Year-by-Year Navigation:** Seamlessly switch between any year your account has contribution history for.
+- **Installable PWA:** Add to your iOS or Android home screen with standard web app manifest support for a native app feel.
+- **Secure Architecture:** Your personal GitHub token is locked on the server and is **never** sent to the client browser.
+- **In-Memory Caching:** Backend caches API responses for 10 minutes to minimize external calls and respect GitHub rate limits.
+
+---
+
 ## What it does
 
 - Shows a GitHub-style contribution calendar for one configured account,
