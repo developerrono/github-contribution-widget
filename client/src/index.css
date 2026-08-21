@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overscroll-behavior-x: none;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Hide scrollbar visually for the horizontally-scrolling calendar while
+   keeping it scrollable/accessible on all devices. */
+.no-scrollbar::-webkit-scrollbar {
+  height: 6px;
+}
+
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #e5e7eb;
+  border-radius: 9999px;
+}
+
+.no-scrollbar {
+  scrollbar-width: thin;
+}
