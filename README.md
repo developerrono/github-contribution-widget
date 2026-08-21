@@ -123,18 +123,6 @@ Copy the example file into the backend package and fill it in:
 cp .env.example server/.env
 ```
 
-```env
-GITHUB_TOKEN=your_github_token
-GITHUB_USERNAME=your_github_username
-PORT=5000
-```
-
-`GITHUB_TOKEN` and `GITHUB_USERNAME` must **only** ever live in
-`server/.env` (or your host's server-side environment variable settings).
-Never prefix them with `VITE_` — anything prefixed `VITE_` is bundled into
-the frontend JavaScript and shipped to the browser, which would expose
-the token publicly.
-
 ## 4. Run the backend
 
 ```bash
